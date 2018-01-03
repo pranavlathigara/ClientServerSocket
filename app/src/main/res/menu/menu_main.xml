@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="site.withoutcaps.tcpclientserversample.MainActivity">
+    <item
+        android:id="@+id/action_disconnect"
+        android:orderInCategory="100"
+        android:title="Disconnect"
+        android:visible="false"
+        app:showAsAction="always" />
+</menu>

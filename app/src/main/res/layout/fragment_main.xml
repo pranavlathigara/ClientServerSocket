@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="site.withoutcaps.tcpclientserversample.MainFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/console_txt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/no_baground"
+            android:clickable="false"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="Console"
+            android:inputType="textMultiLine"
+            android:padding="4dp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="click"
+        android:text="Button" />
+
+
+</RelativeLayout>

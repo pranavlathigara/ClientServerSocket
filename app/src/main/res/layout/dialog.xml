@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/ip_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="text"
+        android:minWidth="170dp"
+        android:singleLine="true"
+        android:digits=":.1234567890"
+        android:hint="192.168.0.46:1000" />
+
+
+</RelativeLayout>

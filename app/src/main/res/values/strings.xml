@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TCP Client/Server</string>
+    <string name="connect">Connect</string>
+    <string name="listen">Start Lisening</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="client_dialog_title">Connect to: </string>
+    <string name="server_dialog_title">Start Server at: </string>
+    <string name="client_disconnect_btn">Disconnect</string>
+    <string name="server_disconnect_btn">Stop</string>
+    <string name="server_cons">Server: </string>
+    <string name="client_cons">Client: </string>
+    <string name="low_port">Ports lower then 1024 are not allowed</string>
+    <string name="server_on">Unable to start client while server is running</string>
+    <string name="client_on">Unable to start server while client is running</string>
+    <string name="tcp_client">TCP Client</string>
+    <string name="tcp_server">TCP Server</string>
+
+</resources>
