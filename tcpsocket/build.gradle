@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.pranavlathigara'
+group='com.github.pranavlathigara:ClientServerSocket'
 android {
     compileSdkVersion 27
 
